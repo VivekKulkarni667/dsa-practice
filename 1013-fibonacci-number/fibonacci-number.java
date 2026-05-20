@@ -5,7 +5,7 @@ static int[] dp; // creating array for knwon solutions already calculated
         if (dp[n] !=0 ) return dp[n];
         // if (n == 1) return 1;  two base case
         int ans = fibo(n - 1) + fibo(n - 2);
-    
+        dp[n] = ans;
         return ans;
     }
 public int fib(int n){
