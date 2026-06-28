@@ -1,9 +1,7 @@
 class Solution {
-
     public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
 
         Arrays.sort(arr);
-
         arr[0] = 1;
 
         int n = arr.length;
