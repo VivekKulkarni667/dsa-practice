@@ -11,7 +11,7 @@ class Solution {
             negative+=2;
             }
 
-           if(arr[i]>0)
+           else
             {
                 ans[positive]=arr[i];
                 positive+=2;
